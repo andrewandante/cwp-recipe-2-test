@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a63f439ddafa0ae6c4f192c0c4ca095",
+    "content-hash": "c800f7d4bdd566c7d03d424db4c2bc22",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -42,7 +42,7 @@
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
-            "version": "3.0.0-beta1",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
@@ -6802,14 +6802,15 @@
         {
             "alias": "3.x-dev",
             "alias_normalized": "3.9999999.9999999.9999999-dev",
-            "version": "3.0.0.0-beta1",
+            "version": "3.0.9999999.9999999-dev",
             "package": "colymba/gridfield-bulk-editing-tools"
         }
     ],
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe/subsites": 0,
-        "silverstripe/registry": 0
+        "silverstripe/registry": 0,
+        "colymba/gridfield-bulk-editing-tools": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
