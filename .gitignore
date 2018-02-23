@@ -1,0 +1,6 @@
+/vendor/
+/queuedjobs/
+/themes/
+/.idea/
+
+/public/resources/
