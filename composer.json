@@ -19,7 +19,8 @@
         "tractorcow/silverstripe-fluent": "4.0.0-rc1",
         "silverstripe/registry": "2.0.0@stable",
         "cwp/starter-theme": "2.0.0-rc1",
-        "colymba/gridfield-bulk-editing-tools": "3.x-dev"
+        "colymba/gridfield-bulk-editing-tools": "3.x-dev",
+        "silverstripe/comments": "dev-master as 3.0.0"
     },
     "suggest": {
         "silverstripe/recipe-content-blocks": "Supplement the CMS with a 'content block' approach to editing"

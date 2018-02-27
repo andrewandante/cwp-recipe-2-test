@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "23307ad321386ac33137a1debdbbb9cc",
+    "content-hash": "31a9cdcc891ed4878535e412ad679c21",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -2122,16 +2122,16 @@
         },
         {
             "name": "silverstripe/comments",
-            "version": "3.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-comments.git",
-                "reference": "b90ec7715ee9c63f8700c35fdd6b65b9961104f8"
+                "reference": "90c42ff0273a657020e080627884354eafcf9872"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-comments/zipball/b90ec7715ee9c63f8700c35fdd6b65b9961104f8",
-                "reference": "b90ec7715ee9c63f8700c35fdd6b65b9961104f8",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-comments/zipball/90c42ff0273a657020e080627884354eafcf9872",
+                "reference": "90c42ff0273a657020e080627884354eafcf9872",
                 "shasum": ""
             },
             "require": {
@@ -2178,7 +2178,7 @@
                 "comments",
                 "silverstripe"
             ],
-            "time": "2018-02-02T10:45:48+00:00"
+            "time": "2018-02-26T20:29:26+00:00"
         },
         {
             "name": "silverstripe/config",
@@ -6798,12 +6798,20 @@
             "time": "2018-01-29T19:49:41+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "3.0.0",
+            "alias_normalized": "3.0.0.0",
+            "version": "9999999-dev",
+            "package": "silverstripe/comments"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe/subsites": 0,
         "silverstripe/registry": 0,
-        "colymba/gridfield-bulk-editing-tools": 20
+        "colymba/gridfield-bulk-editing-tools": 20,
+        "silverstripe/comments": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
