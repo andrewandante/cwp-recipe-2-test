@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c800f7d4bdd566c7d03d424db4c2bc22",
+    "content-hash": "23307ad321386ac33137a1debdbbb9cc",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -42,16 +42,16 @@
         },
         {
             "name": "colymba/gridfield-bulk-editing-tools",
-            "version": "3.0.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "aa9bf472c672abee30c9af24337f96fa51b2714b"
+                "reference": "d4726cb5fe5fc9d1a139b7ca50f67965cb842634"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/aa9bf472c672abee30c9af24337f96fa51b2714b",
-                "reference": "aa9bf472c672abee30c9af24337f96fa51b2714b",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/d4726cb5fe5fc9d1a139b7ca50f67965cb842634",
+                "reference": "d4726cb5fe5fc9d1a139b7ca50f67965cb842634",
                 "shasum": ""
             },
             "require": {
@@ -80,12 +80,12 @@
             ],
             "authors": [
                 {
-                    "name": "Thierry Francois",
-                    "homepage": "http://colymba.com"
-                },
-                {
                     "name": "GitHub contributors",
                     "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
+                },
+                {
+                    "name": "Thierry Francois",
+                    "homepage": "http://t-f.io"
                 }
             ],
             "description": "SilverStripe GridField component to upload images/files and edit records in bulk",
@@ -96,7 +96,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2018-02-22T08:15:42+00:00"
+            "time": "2018-02-27T14:48:02+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -641,16 +641,16 @@
         },
         {
             "name": "embed/embed",
-            "version": "v3.3.0",
+            "version": "v3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/Embed.git",
-                "reference": "c71e62f3c15d8693e045eccad987038eba8a22ea"
+                "reference": "038265bc1169f29ef5e19b7210eff1f223c66b0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/Embed/zipball/c71e62f3c15d8693e045eccad987038eba8a22ea",
-                "reference": "c71e62f3c15d8693e045eccad987038eba8a22ea",
+                "url": "https://api.github.com/repos/oscarotero/Embed/zipball/038265bc1169f29ef5e19b7210eff1f223c66b0b",
+                "reference": "038265bc1169f29ef5e19b7210eff1f223c66b0b",
                 "shasum": ""
             },
             "require": {
@@ -690,7 +690,7 @@
                 "opengraph",
                 "twitter cards"
             ],
-            "time": "2018-01-11T22:43:43+00:00"
+            "time": "2018-02-24T11:23:18+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -6798,14 +6798,7 @@
             "time": "2018-01-29T19:49:41+00:00"
         }
     ],
-    "aliases": [
-        {
-            "alias": "3.x-dev",
-            "alias_normalized": "3.9999999.9999999.9999999-dev",
-            "version": "3.0.9999999.9999999-dev",
-            "package": "colymba/gridfield-bulk-editing-tools"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "silverstripe/subsites": 0,
